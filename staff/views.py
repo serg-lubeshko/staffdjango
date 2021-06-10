@@ -11,4 +11,3 @@ class StaffViewSet(viewsets.ModelViewSet):
     queryset = Staff.objects.all().order_by('surname')
     serializer_class = StaffSerializer
 
-# Create your views here.
