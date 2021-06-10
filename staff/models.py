@@ -27,6 +27,7 @@ class Staff(models.Model):
                               verbose_name='Грейд')
 
     class Meta:
+
         verbose_name = "сотрудник"
         verbose_name_plural = "Сотрудники"
 
