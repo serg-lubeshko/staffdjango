@@ -14,6 +14,6 @@ class StaffSerializer(serializers.HyperlinkedModelSerializer):
     wages = serializers.StringRelatedField(many=True)
     class Meta:
         model = Staff
-        fields = ["surname", "name", "patronymic", "employment_date", "wage", "staffs", "level", "wages"]
+        fields = ["id", "surname", "name", "patronymic", "employment_date", "wage", "staffs", "level", "wages"]
 
     level = GradePositionSerializer()
